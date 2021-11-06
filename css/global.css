@@ -9,46 +9,39 @@ body {
 }
 
 .primary-nav {
-    background-color: #fff0ed ;
-    padding-bottom: 0.625rem;
-    padding-right: 31.25rem;
-    padding-top: 0.625rem;
-    padding-left: 0.625rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
-.primary-nav__icon {
-    min-width: 3.125rem;
-    max-width: 7.5rem;
-    position: absolute;
-}
-
-.primary-nav__box {
-    width: 200px;
-    padding-top: 0rem;
-    position: absolute;
+.primary-nav__logo {
+    color: #335576;
+    text-decoration: none;
 }
 
 .primary-nav__title {
-    padding-left: 3.125rem;
-    width: 100px;
-    margin-top: 0rem;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 .primary-nav__container {
-    padding-top: 0.031rem;
+    padding-top: 18px;
 }
 
 .primary-nav__list {
+    display:flex;
+    justify-content: center;
+    align-content: space-around;
+    align-items: center;
     list-style-type: none;
-    margin-bottom: 0.625rem;
-    padding-left: 7.5rem;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 .primary-nav__item {
-    display: inline;
-    padding-left: 1rem;
-    margin-left: 1rem;
-    margin-top: 0.1rem;
+    width: 80px;
 }
 
 .primary-nav__link {
@@ -56,6 +49,7 @@ body {
     color: #393939;
 }
 
-#primary-nav__link--nitro-blue {
-    color:#5bacc3;
+a.primary-nav__link:hover,  a.primary-nav__link:active {
+    text-decoration: none;
+    border-bottom: 3px solid #db7a4e;
 }
