@@ -54,3 +54,35 @@ a.primary-nav__link:hover,  a.primary-nav__link:active {
     text-decoration: none;
     border-bottom: 3px solid #db7a4e;
 }
+
+/*footer is the container */
+.footer {
+    background-color: #fefaf5;
+    display:flex;
+    justify-content: center;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+
+.footer__title {
+    text-align: left;
+    margin-top: 0px;
+    margin-left: 100px;
+    color: #335576;
+}
+
+.footer__card {
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.footer__card--bold {
+    font-weight: 700;
+}
+
+.footer__card-image {
+    min-width: 3.125rem;
+    max-width: 7.5rem;
+}

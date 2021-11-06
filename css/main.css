@@ -87,13 +87,6 @@ h1, h2 {
 
 }
 
-.destination__card--image2 {
-    display: flex;
-    align-items: stretch;
-    width: 220px;
-    height: 320px;
-}
-
 .destination__card--image {
     display: flex;
     align-items: stretch;
