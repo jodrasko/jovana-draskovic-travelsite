@@ -48,7 +48,7 @@ h1, h2 {
 
 .destination {
     text-align: center;
-    background-color: #f7f7f7;
+    background-color: #fff;
     padding-bottom: 20px;
     padding-top: 50px;
 }
@@ -57,6 +57,7 @@ h1, h2 {
     text-align: left;
     margin-top: 0px;
     margin-left: 100px;
+    color: #335576;
 }
 
 .destination__card {
@@ -64,14 +65,14 @@ h1, h2 {
     border-radius: 5px;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
     position: relative;
-    margin: 0;
-    padding: 0;
-    
+    margin-left: 20px;
+    margin-right: 20px;
+    overflow: hidden;
    
 }
 .destination__container {
     display:flex;
-    justify-content: space-evenly;
+    justify-content: center;
     margin-left: 80px;
     margin-right: 80px;
    
@@ -86,15 +87,20 @@ h1, h2 {
 
 }
 
-.destination__card--image {
-    width: 200px;
-    height: 280px;
-    
-
-    
+.destination__card--image2 {
+    display: flex;
+    align-items: stretch;
+    width: 220px;
+    height: 320px;
 }
 
-
+.destination__card--image {
+    display: flex;
+    align-items: stretch;
+    width: 220px;
+    height: 320px;
+    
+}
 
 
 
