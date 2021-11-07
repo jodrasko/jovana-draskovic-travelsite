@@ -20,7 +20,8 @@
             <!-- Nav -->
             <nav class="primary-nav__container">
                 <ul class="primary-nav__list">
-                    <li class="primary-nav__item"><a class="primary-nav__link" href="./index.html">Home</a></li>
+                    <li class="primary-nav__item"><a class="primary-nav__link primary-nav__link--active"
+                            href="./index.html">Home</a></li>
                     <li class="primary-nav__item"><a class="primary-nav__link" href="./pages/hawaii.html">Hawaii</a>
                     </li>
                     <li class="primary-nav__item"><a class="primary-nav__link" href="./pages/iceland.html">Iceland</a>
@@ -48,28 +49,35 @@
         </div>
 
 
-        <div class="destination">
-            <h3 class="destination__title">Recommendations</h3>
+        <div class="recommendations">
+            <h3 class="recommendations__title">Recommendations</h3>
 
-            <div class="destination__container">
-                <div class="destination__card">
 
-                    <h3 class="destination__name">Hawaii</h3>
-                    <img class="destination__card--image" src="./assets/images/hawaii.jpg" alt="Hawaii" />
+            <div class="recommendations__container">
+                <a href="./pages/hawaii.html">
+                    <div class="recommendations__card">
 
-                </div>
+                        <h3 class="recommendations__name">Hawaii</h3>
+                        <img class="recommendations__card--image" src="./assets/images/hawaii.jpg" alt="Hawaii" />
 
-                <div class="destination__card">
+                    </div>
+                </a>
 
-                    <h3 class="destination__name">Iceland</h3>
-                    <img class="destination__card--image" src="./assets/images/iceland.jpg" alt="Iceland" />
-                </div>
+                <a href="./pages/iceland.html">
+                    <div class="recommendations__card">
 
-                <div class="destination__card">
+                        <h3 class="recommendations__name">Iceland</h3>
+                        <img class="recommendations__card--image" src="./assets/images/iceland.jpg" alt="Iceland" />
+                    </div>
+                </a>
 
-                    <h3 class="destination__name">Greece</h3>
-                    <img class="destination__card--image" src="./assets/images/greece.jpg" alt="Greece" />
-                </div>
+                <a href="./pages/greece.html">
+                    <div class="recommendations__card">
+
+                        <h3 class="recommendations__name">Greece</h3>
+                        <img class="recommendations__card--image" src="./assets/images/greece.jpg" alt="Greece" />
+                    </div>
+                </a>
             </div>
         </div>
 
@@ -78,11 +86,13 @@
     <footer class="footer">
         <div class="footer__card">
             <h3 class="footer__title">Contact</h3>
-            <p class="footer__card-name">EMAIL
-            </p>
-            <p class="footer__card-value">
-                info@travelsite.com
-            </p>
+            <div class="footer__contact-email">
+                <p class="footer__card-name">EMAIL
+                </p>
+                <p class="footer__card-value">
+                    info@travelsite.com
+                </p>
+            </div>
         </div>
 
         <div class="footer__card">

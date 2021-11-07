@@ -6,19 +6,16 @@ h1, h2 {
 .hero {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     background-color: #FEFAF5;
     text-align: left;
     color: #335576;
     padding-top: 50px;
     padding-left: 100px;
-    
 }
 
 .hero__card {
     display: flex;
     flex-direction: column;
-
     min-width: 480px;
     max-width: 500px;
     min-height: 350px;
@@ -37,62 +34,55 @@ h1, h2 {
     color: #fff;
     border: 2px solid #db7a4e;
     border-radius: 30px;
-
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px 60px 10px 60px;
     margin-bottom: 20px;
     margin-top: 20px;
 }
 
-.destination {
+.recommendations {
     text-align: center;
     background-color: #fff;
-    padding-bottom: 20px;
+    padding-bottom: 70px;
     padding-top: 50px;
 }
 
-.destination__title {
+.recommendations__title {
     text-align: left;
     margin-top: 0px;
     margin-left: 100px;
     color: #335576;
 }
 
-.destination__card {
-    border: 1px solid black;
+.recommendations__container {
+    display:flex;
+    justify-content: center;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.recommendations__card {
+    border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
     position: relative;
     margin-left: 20px;
     margin-right: 20px;
     overflow: hidden;
-   
-}
-.destination__container {
-    display:flex;
-    justify-content: center;
-    margin-left: 80px;
-    margin-right: 80px;
-   
 }
 
-.destination__name{
+.recommendations__name{
     position: absolute;
     bottom: 0;
     right: 0;
     width: 100px;
     color: #ffffff;
-
 }
 
-.destination__card--image {
+.recommendations__card--image {
     display: flex;
     align-items: stretch;
     width: 220px;
     height: 320px;
-    
 }
 
 

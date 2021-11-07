@@ -6,7 +6,6 @@ h4 {
 
 .itinerary{
     display: flex;
-    
     align-items: center;
     text-align: center;
     padding-top: 180px;
@@ -25,8 +24,6 @@ h4 {
     padding: 0 20px 0px 20px;
     margin: 20px;
     text-align: center;
-    
-    
 }
 
 .itinerary__list {

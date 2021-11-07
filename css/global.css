@@ -50,8 +50,12 @@ body {
     color: #393939;
 }
 
-a.primary-nav__link:hover,  a.primary-nav__link:active {
+a.primary-nav__link:hover, a.primary-nav__link:active {
     text-decoration: none;
+    border-bottom: 3px solid #db7a4e;
+}
+
+.primary-nav__link--active {
     border-bottom: 3px solid #db7a4e;
 }
 
