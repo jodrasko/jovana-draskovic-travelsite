@@ -5,43 +5,69 @@ h4 {
   }
 
 .itinerary{
+    display: flex;
+    
+    align-items: center;
     text-align: center;
     padding-top: 180px;
+    padding-left: 190px;
+  
 }
 
 .itinerary__card {
-    display: inline-block;
-    min-width: 230px;
-    max-width: 250px;
-    min-height: 300px;
-    max-height: 340px;
-    padding: 0 20px 0 20px;
-    margin: 20px;
+    background-color: #fff;
     border-radius: 3px;
     box-shadow: 0 5px 9px -1px rgba(0, 0, 0, 0.25);
-    vertical-align: bottom;
+    min-width: 230px;
+    max-width: 250px;
+    min-height: 340px;
+    max-height: 360px;
+    padding: 0 20px 0px 20px;
+    margin: 20px;
     text-align: center;
-    background-color: #FEFAF5;
     
-}
-
-.itinerary__activity {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 40px;
     
 }
 
 .itinerary__list {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
     list-style-type: none;
     text-align: center;
-    padding: 0;
-    margin-top: 40px;
+    padding: 0px;
+    margin-bottom: 10px;
+}
+
+.itinerary__activity { 
+    background-color: #fefaf5;
+    width: 200px;
+    height: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.hero_iceland {
+    background-image: url(../assets/images/iceland.jpg);
+
+}
+
+.hero_hawaii {
+    background-image: url(../assets/images/hawaii.jpg);
+
+}
+
+.hero_greece {
+    background-image: url(../assets/images/greece.jpg);
+
 }
 
 .hero {
-    background-image: url(../assets/images/iceland.jpg);
+    
     background-color: #f7f7f7;
     height: 660px;
     background-position: center;
@@ -57,5 +83,6 @@ h4 {
     top: 9%;
     left: 7%;
     color: #fff;
-    margin-top: 0rem;
+    margin-top: 2rem;
+    margin-bottom: 0rem;
 }

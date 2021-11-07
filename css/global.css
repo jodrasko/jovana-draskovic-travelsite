@@ -96,11 +96,12 @@ a.primary-nav__link:hover,  a.primary-nav__link:active {
 .footer_hours-container {
     display: flex;
     align-content: space-around;
+    height: 60px;
 }
 
 .footer__hours-item {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 0;
+    margin-right: 20px;
 }
 
 .footer__social-container {
@@ -110,6 +111,10 @@ a.primary-nav__link:hover,  a.primary-nav__link:active {
 }
 
 .footer__social-icon {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+.footer__contact-email {
+    padding-top: 1px;
 }

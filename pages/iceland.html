@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Iceland Travel Site</title>
+    <title>Iceland</title>
     <link rel="stylesheet" href="../css/global.css">
     <link rel="stylesheet" href="../css/destinations.css">
 </head>
@@ -14,22 +14,23 @@
 
     <header>
         <div class="primary-nav">
-            <a class="primary-nav__logo" href="../index.html">
+            <a class="primary-nav__logo" href="./index.html">
                 <h3 class="primary-nav__title">Travel Site</h3>
             </a>
             <!-- Nav -->
             <nav class="primary-nav__container">
                 <ul class="primary-nav__list">
                     <li class="primary-nav__item"><a class="primary-nav__link" href="../index.html">Home</a></li>
-                    <li class="primary-nav__item"><a class="primary-nav__link" href="../pages/hawaii.html">Hawaii</a>
+                    <li class="primary-nav__item"><a class="primary-nav__link" href="./hawaii.html">Hawaii</a>
                     </li>
-                    <li class="primary-nav__item"><a class="primary-nav__link" href="../pages/iceland.html">Iceland</a>
+                    <li class="primary-nav__item"><a class="primary-nav__link" href="./iceland.html">Iceland</a>
                     </li>
-                    <li class="primary-nav__item"><a class="primary-nav__link" href="../pages/greece.html">Greece</a>
+                    <li class="primary-nav__item"><a class="primary-nav__link" href="./greece.html">Greece</a>
                     </li>
                 </ul>
             </nav>
         </div>
+
     </header>
 
     <main>
@@ -38,7 +39,7 @@
         <section>
 
 
-            <div class="hero">
+            <div class="hero_iceland hero">
                 <h2 class="hero__title">Iceland</h2>
                 <!--to move to the outside, under section-->
 
@@ -81,43 +82,52 @@
 
     </main>
 
-    <footer class="contact">
-        <div class="contact__card">
-            <h3>Contact</h3>
-
-            <h5>Email</h5>
-            <div>info@travelsite.com
+    <footer class="footer">
+        <div class="footer__card">
+            <h3 class="footer__title">Contact</h3>
+            <div class="footer__contact-email">
+                <p class="footer__card-name">EMAIL
+                </p>
+                <p class="footer__card-value">
+                    info@travelsite.com
+                </p>
             </div>
         </div>
 
-        <div class="contact__card">
-            <h3>Hours</h3>
-            <div>
-                <span class="contact__card--bold">Monday - Friday</span>
-                <p>9:00am - 5:00pm</p>
-            </div>
-            <div>
-                <span class="contact__card--bold">Saturday</span>
-                <p>10:00am - 4:00pm</p>
-            </div>
-            <div>
-                <span class="contact__card--bold">Sunday</span>
-                <p>Closed</p>
+        <div class="footer__card">
+            <h3 class="footer__title">Hours</h3>
+            <div class="footer_hours-container">
+                <div class="footer__hours-item">
+                    <p class="footer__card-name">MONDAY - FRIDAY</p>
+                    <p class="footer__card-value">9:00 AM - 5:00 PM</p>
+                </div>
+                <div class="footer__hours-item">
+                    <p class="footer__card-name">SATURDAY</p>
+                    <p class="footer__card-value">10:00 AM - 4:00 PM</p>
+                </div>
+                <div class="footer__hours-item">
+                    <p class="footer__card-name">SUNDAY</p>
+                    <p class="footer__card-value">Closed</p>
+                </div>
             </div>
         </div>
 
-        <div class="contact__card">
-            <h3>Social</h3>
-            <div>
-                <a href="https://www.instagram.com/"><img class="contact__card-image"
-                        src="../assets/images/icon-instagram.png" alt="Instagram" /></a>
+        <div class="footer__card">
+            <h3 class="footer__title">Social</h3>
+            <div class="footer__social-container">
 
-                <a href="https://www.facebook.com/"><img class="contact__card-image"
-                        src="../assets/images/icon-facebook.png" alt="Facebook" /></a>
-
-                <a href="https://twitter.com/?lang=en"><img class="contact__card-image"
-                        src="../assets/images/icon-twitter.png" alt="Twitter" /></a>
-
+                <div class="footer__social-icon">
+                    <a href="https://www.instagram.com/"><img class="footer__card-image"
+                            src="../assets/images/icon-instagram.png" alt="Instagram" /></a>
+                </div>
+                <div class="footer__social-icon">
+                    <a href="https://www.facebook.com/"><img class="footer__card-image"
+                            src="../assets/images/icon-facebook.png" alt="Instagram" /></a>
+                </div>
+                <div class="footer__social-icon">
+                    <a href="https://twitter.com/?lang=en"><img class="footer__card-image"
+                            src="../assets/images/icon-twitter.png" alt="Twitter" /></a>
+                </div>
 
             </div>
         </div>
