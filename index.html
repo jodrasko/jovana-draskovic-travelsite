@@ -11,30 +11,34 @@
 </head>
 
 <body>
-
+    <!-- Header -->
     <header>
-        <div class="primary-nav">
-            <a class="primary-nav__logo" href="./index.html">
-                <h3 class="primary-nav__title">Travel Site</h3>
+        <div class="navbar">
+            <a class="navbar__logo" href="./index.html">
+                <h3 class="navbar__title">Travel Site</h3>
             </a>
-            <!-- Nav -->
-            <nav class="primary-nav__container">
-                <ul class="primary-nav__list">
-                    <li class="primary-nav__item"><a class="primary-nav__link primary-nav__link--active"
-                            href="./index.html">Home</a></li>
-                    <li class="primary-nav__item"><a class="primary-nav__link" href="./pages/hawaii.html">Hawaii</a>
+            <!-- Navigation Bar-->
+            <nav class="navbar__container">
+                <ul class="navbar__list">
+                    <li class="navbar__item">
+                        <a class="navbar__link navbar__link--current" href="./index.html">Home</a>
                     </li>
-                    <li class="primary-nav__item"><a class="primary-nav__link" href="./pages/iceland.html">Iceland</a>
+                    <li class="navbar__item">
+                        <a class="navbar__link" href="./pages/hawaii.html">Hawaii</a>
                     </li>
-                    <li class="primary-nav__item"><a class="primary-nav__link" href="./pages/greece.html">Greece</a>
+                    <li class="navbar__item">
+                        <a class="navbar__link" href="./pages/iceland.html">Iceland</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a class="navbar__link" href="./pages/greece.html">Greece</a>
                     </li>
                 </ul>
             </nav>
         </div>
-
     </header>
 
     <main>
+        <!-- Hero Section -->
         <div class="hero">
             <div class="hero__card">
                 <h1>Travelling Comes With Endless Discoveries</h1>
@@ -42,47 +46,43 @@
                 <a href="./pages/menu.html"><button class="button" type="button">Get Started</button></a>
             </div>
 
-
             <div class="hero__card">
                 <img class="hero__image" src="./assets/images/hero.png" alt="hero" />
             </div>
         </div>
 
-
+        <!-- Recommendations Section -->
         <div class="recommendations">
             <h3 class="recommendations__title">Recommendations</h3>
 
-
             <div class="recommendations__container">
-                <a href="./pages/hawaii.html">
-                    <div class="recommendations__card">
 
+                <div class="recommendations__card">
+                    <a href="./pages/hawaii.html">
                         <h3 class="recommendations__name">Hawaii</h3>
                         <img class="recommendations__card--image" src="./assets/images/hawaii.jpg" alt="Hawaii" />
+                    </a>
+                </div>
 
-                    </div>
-                </a>
-
-                <a href="./pages/iceland.html">
-                    <div class="recommendations__card">
-
+                <div class="recommendations__card">
+                    <a href="./pages/iceland.html">
                         <h3 class="recommendations__name">Iceland</h3>
                         <img class="recommendations__card--image" src="./assets/images/iceland.jpg" alt="Iceland" />
-                    </div>
-                </a>
+                    </a>
+                </div>
 
-                <a href="./pages/greece.html">
-                    <div class="recommendations__card">
-
+                <div class="recommendations__card">
+                    <a href="./pages/greece.html">
                         <h3 class="recommendations__name">Greece</h3>
                         <img class="recommendations__card--image" src="./assets/images/greece.jpg" alt="Greece" />
-                    </div>
-                </a>
+                    </a>
+                </div>
+
             </div>
         </div>
-
     </main>
 
+    <!-- Footer -->
     <footer class="footer">
         <div class="footer__card">
             <h3 class="footer__title">Contact</h3>
@@ -132,7 +132,6 @@
 
             </div>
         </div>
-
     </footer>
 
 </body>

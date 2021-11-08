@@ -8,29 +8,29 @@ body {
     width: 1280px;
 }
 
-.primary-nav {
+.navbar {
     display: flex;
     justify-content: space-between;
     background-color: #ffffff;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 6.25rem;
+    margin-right: 6.25rem;
 }
 
-.primary-nav__logo {
+.navbar__logo {
     color: #335576;
     text-decoration: none;
 }
 
-.primary-nav__title {
-    margin-bottom: 15px;
-    margin-top: 15px;
+.navbar__title {
+    margin-bottom: 0.938rem;
+    margin-top: 0.938rem;
 }
 
-.primary-nav__container {
-    padding-top: 18px;
+.navbar__container {
+    padding-top: 1.125rem;
 }
 
-.primary-nav__list {
+.navbar__list {
     display:flex;
     justify-content: center;
     align-content: space-around;
@@ -40,46 +40,43 @@ body {
     margin-top: 0;
 }
 
-.primary-nav__item {
+.navbar__item {
     font-size: 1rem;
     width: 80px;
 }
 
-.primary-nav__link {
+.navbar__link {
     text-decoration: none;
     color: #393939;
 }
 
-a.primary-nav__link:hover, a.primary-nav__link:active {
+a.navbar__link:hover, a.navbar__link:active {
     text-decoration: none;
     border-bottom: 3px solid #db7a4e;
 }
 
-.primary-nav__link--active {
+.navbar__link--current {
     border-bottom: 3px solid #db7a4e;
 }
 
-/*footer is the container */
 .footer {
     background-color: #fefaf5;
     display:flex;
     justify-content: center;
-    margin: 0;
-    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
+    padding-left: 6.25rem;
 }
-
 
 .footer__title {
     text-align: left;
-    margin-top: 50px;
-    margin-right: 155px;
+    margin-top: 3.125rem;
+    margin-right: 9.688rem;
     color: #335576;
 }
 
 .footer__card {
-    margin-left: 20px;
-    margin-right: 20px;
-
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
 }
 
 .footer__card-image {
@@ -105,20 +102,20 @@ a.primary-nav__link:hover, a.primary-nav__link:active {
 
 .footer__hours-item {
     margin-left: 0;
-    margin-right: 20px;
+    margin-right: 1.25rem;
 }
 
 .footer__social-container {
     display: flex;
     align-content: space-around;
-    padding-top: 30px;
+    padding-top: 1.875rem;
 }
 
 .footer__social-icon {
     margin-left: 0;
-    margin-right: 20px;
+    margin-right: 1.25rem;
 }
 
 .footer__contact-email {
-    padding-top: 1px;
+    padding-top: 0.063rem;
 }

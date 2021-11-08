@@ -1,5 +1,5 @@
 h1, h2 {
-    font-size: 30px;
+    font-size: 1.875rem;
     font-style: bold;
 }
 
@@ -9,8 +9,8 @@ h1, h2 {
     background-color: #FEFAF5;
     text-align: left;
     color: #335576;
-    padding-top: 50px;
-    padding-left: 100px;
+    padding-top: 3.125rem;
+    padding-left: 6.25rem;
 }
 
 .hero__card {
@@ -34,30 +34,27 @@ h1, h2 {
     color: #fff;
     border: 2px solid #db7a4e;
     border-radius: 30px;
-    padding: 10px 60px 10px 60px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    padding: 0.625rem 3.75rem 0.625rem 3.75rem;
+    margin-bottom: 1.25rem;
+    margin-top: 1.25rem;
 }
 
 .recommendations {
-    text-align: center;
     background-color: #fff;
-    padding-bottom: 70px;
-    padding-top: 50px;
+    padding-bottom: 4.375rem;
+    padding-top: 3.125rem;
 }
 
 .recommendations__title {
     text-align: left;
-    margin-top: 0px;
-    margin-left: 100px;
+    margin-top: 0;
+    margin-left: 6.25rem;
     color: #335576;
 }
 
 .recommendations__container {
     display:flex;
     justify-content: center;
-    margin-left: 80px;
-    margin-right: 80px;
 }
 
 .recommendations__card {
@@ -65,8 +62,8 @@ h1, h2 {
     border-radius: 5px;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
     position: relative;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 1.875rem;
+    margin-right: 1.875rem;
     overflow: hidden;
 }
 
@@ -81,9 +78,6 @@ h1, h2 {
 .recommendations__card--image {
     display: flex;
     align-items: stretch;
-    width: 220px;
-    height: 320px;
+    width: 246px;
+    height: 360px;
 }
-
-
-
